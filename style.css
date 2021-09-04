@@ -13,3 +13,7 @@ body{
     text-decoration: overline;
 padding-top: 100px;
 }
+
+#intro{
+    font-weight: bold;
+}
