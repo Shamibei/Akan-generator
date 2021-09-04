@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    color: aliceblue;
+    background-image: url(akanland.JPG);
+     background-position: center;
+}
+
+
+#header{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: overline;
+padding-top: 100px;
+}
