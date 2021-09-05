@@ -4,3 +4,11 @@ body{
     background-image: url(akanland.JPG);
     background-position: center;
 }
+
+.form{
+    border-color: black;
+    box-shadow: rgba(0,0,0,0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
