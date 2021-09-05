@@ -1,5 +1,10 @@
 body{
+    color: aliceblue;
     text-align: center;
     background-image: url(akanland.JPG);
     background-position: center;
+}
+
+.form {
+    margin:auto;
 }
