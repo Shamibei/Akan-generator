@@ -22,7 +22,7 @@
 </div>
 
 
-<div class="form">
+<div id="form">
 <form>
     <table>
 
@@ -33,7 +33,7 @@
             </td>
 
             <td>
-                <input type="text" name="user"/>
+                <input type="text" id="name" name="user" placeholder="name/nickname"/>
             </td>
         </tr>
 
@@ -45,7 +45,9 @@
             </td>
 
             <td>
-                <input type=" date"  class="form-control"/>
+                <input type=" date" id="date" class="form-control" placeholder="date"/>
+                <input type=" date" id="month"  class="form-control" placeholder="month"/>
+                <input type=" date" id="year" class="form-control" placeholder=" year"/>
             </td>
 
         
@@ -59,15 +61,15 @@
                 </td>
 
                 <td>
-                    <input type="radio" name="gender"/>FEMALE
-                    <input type="radio" name="gender"/>MALE
+                    <input type="radio" id="female" name="gender"/>FEMALE
+                    <input type="radio" id="male" name="gender"/>MALE
                 </td>
             </tr>
 
 
             <tr>
                 <td>
-                    <input type="submit" name="submit" value="submit"/>
+                    <input type="submit"  id="submit" name="submit" value="submit"/>
                 </td>
 
             </tr>
