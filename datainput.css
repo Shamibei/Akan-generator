@@ -6,9 +6,15 @@ body{
 }
 
 #form{
-    border-color: black;
-    box-shadow: rgba(0,0,0,0.26);
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#submit{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    height: 30px;
 }
