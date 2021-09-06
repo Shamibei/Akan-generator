@@ -5,7 +5,7 @@
 
     <title>akandatareceptor</title>
 
-    <link rel="stylesheet" type="text/css" href="datainput.css">
+    <link rel="stylesheet" type="text/css" href="css/datainput.css">
 
 </head>
 
@@ -22,8 +22,8 @@
 </div>
 
 
-<div id="form">
-<form>
+<div >
+<form id="form" name="frm">
     <table>
 
 
@@ -45,9 +45,9 @@
             </td>
 
             <td>
-                <input type=" date" id="date" class="form-control" placeholder="date"/>
-                <input type=" date" id="month"  class="form-control" placeholder="month"/>
-                <input type=" date" id="year" class="form-control" placeholder=" year"/>
+                <input type="number" name="date" class="form-control" placeholder="date"/>
+                <input type="number" name="month"  class="form-control" placeholder="month"/>
+                <input type="number" name="year" class="form-control" placeholder=" year"/>
             </td>
 
         
@@ -61,8 +61,8 @@
                 </td>
 
                 <td>
-                    <input type="radio" id="female" name="gender"/>FEMALE
-                    <input type="radio" id="male" name="gender"/>MALE
+                    <input type="radio" id="female" name="gender" value="female" />FEMALE
+                    <input type="radio" id="male" name="gender" value="male"/>MALE
                 </td>
             </tr>
 
@@ -82,7 +82,7 @@
 
 
 
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 
