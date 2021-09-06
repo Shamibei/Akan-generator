@@ -1,0 +1,29 @@
+body{
+    color: aliceblue;
+    text-align: center;
+    background-image: url("../images/akanland.JPG");
+    background-position: center;
+}
+
+#form{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+}
+
+.header{
+    padding-top: 110px;
+}
+
+#form{
+    padding-top: 50px;
+}
