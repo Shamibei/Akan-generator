@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    color: aliceblue;
+    background-image: url("../images/akanland2.JPG");
+     background-position: center;
+}
+
+
+#header{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: overline;
+padding-top: 100px;
+}
+
+#intro{
+    font-weight: bold;
+}
+
+.button{
+    margin-top: 100px;
+    text-decoration: none;
+    width: 500px;
+    height: 40px;
+}
