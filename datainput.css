@@ -5,7 +5,7 @@ body{
     background-position: center;
 }
 
-.form{
+#form{
     border-color: black;
     box-shadow: rgba(0,0,0,0.26);
     display: flex;
