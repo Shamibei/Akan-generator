@@ -9,14 +9,14 @@ const generateAkan=function(e){
 
     const userName = document.getElementById("name");
 
-    const date = document.getElementById("date");
+    const date = document.getElementById("date").value;
 
-    const month = document.getElementById("month")
+    const month = document.getElementById("month").value;
 
-    const year = document.getElementById("year")
+    const year = document.getElementById("year").value;
 
-    const genderFemale = document.getElementById("female")
+    const genderFemale = document.getElementById("female");
 
-    const genderFemale = document.getElementById("male")
+    const genderFemale = document.getElementById("male");
 
 }
