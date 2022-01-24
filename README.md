@@ -13,8 +13,7 @@ It is a website that determines Akan names based on the users birthdate.
 There are no known bugs ...if setup requirements are met then the website should run smoothly and without any problems.
 ## Technologies Used
 HTML ,CSS,JavaScript and bootstrap was used to build the website
-## Support and contact details
-Contact my email "shannelle001@icloud.com" if you have any questions.
+
 
 ## Link to live site
 Shamibei.github.io/pro2
